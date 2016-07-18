@@ -1,5 +1,6 @@
 "use strict";
 
+const debug = require('debug')('dev-gulp');
 const gulp = require('gulp');
 const $ = require('gulp-load-plugins')();
 const browserify = require('browserify');
